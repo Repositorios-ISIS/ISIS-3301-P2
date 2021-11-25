@@ -304,8 +304,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>256</xloc>
-      <yloc>448</yloc>
+      <xloc>208</xloc>
+      <yloc>432</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -328,6 +328,15 @@
     </entry>
   </entries>
   <hops>
+    <hop>
+      <from>Start</from>
+      <to>SQL</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>Y</unconditional>
+    </hop>
   </hops>
   <notepads>
   </notepads>
